@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	background-color: #282846;
+}
+.movieContainer,
+.seriesContainer,
+.searchInformation {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+.movieCard {
+	/* margin: 15%; */
+	width: 100%;
+	height: 450px;
+	cursor: pointer;
+}
+a:hover img {
+	transform: scale(1.02);
+}
+h1 {
+	margin-left: 38px;
+	color: #d8ebe4;
+}
+p {
+	color: #d8ebe4;
+	font-size: 20px;
+}
+.searchContainer {
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+input {
+	color: #282846;
+	background-color: white;
+	padding: 10px;
+	width: 300px;
+}
+.searchButton {
+	height: 40px;
+	width: 40px;
+	font-size: 17px;
+	color: white;
+	cursor: pointer;
+}
+
+.error {
+	margin-left: 650px;
+}
+a{
+	text-decoration: none;
+	width:18%;
+	/* margin: 30px auto; */
+	margin: 40px 1%;
+}
